@@ -34,7 +34,7 @@ You can then create the `MultiSelect` by the following:
 ```jsx
 <MultiSelect
   useTitleInItem={false}
-  label="MultiSelect Label"
+  placeholder="MultiSelect Label"
   invalid={false}
   invalidText="Invalid Selection"
   onChange={onChange}
@@ -55,7 +55,7 @@ If the variable array provided to the `items` attribute lacks a `label` property
 ```jsx
 <MultiSelect
   useTitleInItem={false}
-  label="MultiSelect Label"
+  placeholder="MultiSelect Label"
   invalid={false}
   invalidText="Invalid Selection"
   onChange={onChange}
@@ -80,7 +80,7 @@ The helper function `itemToString` allows you to render a given item to a string
 ```jsx
 <MultiSelect
   useTitleInItem={false}
-  label="MultiSelect Label"
+  placeholder="MultiSelect Label"
   invalid={false}
   invalidText="Invalid Selection"
   onChange={onChange}
